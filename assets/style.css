@@ -16,3 +16,15 @@
 #biografia .bio-chapter>h3{font-family:var(--serif);font-size:clamp(27px,6.5vw,36px);font-weight:400;line-height:1.18;letter-spacing:-.035em;margin:0 0 26px}
 #biografia .bio-chapter+.bio-chapter{border-top:1px solid var(--line);padding-top:35px}
 @media(min-width:760px){#biografia .bio-chapter>.eyebrow{font-size:88px}}
+
+/* Semantic mobile-first reference table */
+#identidad .bio-table-wrap{width:100%;margin-top:20px;overflow:visible}
+#identidad .bio-table{width:100%;table-layout:fixed;border-collapse:collapse;border-spacing:0;text-align:left}
+#identidad .bio-table tr{border-bottom:1px solid var(--line)}
+#identidad .bio-table tr:first-child{border-top:1px solid var(--line)}
+#identidad .bio-table th,#identidad .bio-table td{padding:14px 0;vertical-align:top;overflow-wrap:anywhere;hyphens:auto}
+#identidad .bio-table th{width:37%;padding-right:16px;font:500 12px/1.45 var(--sans);color:#77736d;text-align:left}
+#identidad .bio-table td{font:400 14px/1.5 var(--sans);letter-spacing:-.01em;color:var(--ink)}
+#identidad .bio-table tr:first-child td{font-weight:650}
+@media(min-width:600px){#identidad .bio-table th{width:31%;font-size:13px;padding-right:26px}#identidad .bio-table td{font-size:15px}#identidad .bio-table th,#identidad .bio-table td{padding-block:17px}}
+@media(max-width:360px){#identidad .bio-table th{width:39%;padding-right:10px;font-size:11px}#identidad .bio-table td{font-size:13px}}
