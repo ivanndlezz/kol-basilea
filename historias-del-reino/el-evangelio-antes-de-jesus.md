@@ -32,7 +32,7 @@ Pero hay un detalle interesante y desconcertante: Augusto no acababa de nacer. H
 
 Entonces, ¿por qué celebrar su nacimiento como una buena noticia para el mundo?
 
-Porque para los romanos, Augusto representaba el comienzo de una nueva era. Tras décadas de devastadoras guerras civiles, su gobierno trajo consigo la tan anhelada estabilidad. Sin embargo, más que un simple periodo de tranquilidad, esta paz fue construida y difundida mediante una campaña política deliberada y contemporánea a su régimen: la llamada Pax Romana.
+Porque para los romanos, Augusto representaba el comienzo de una nueva era. Tras décadas de devastadoras guerras civiles, su gobierno trajo consigo la tan anhelada estabilidad. Sin embargo, más que un simple periodo de tranquilidad, esta paz fue construida y difundida mediante una campaña política contemporánea a su régimen: la llamada Pax Romana.
 
 Esta campaña política pretendía mantener el orden social y legitimarlo, presentando la figura de Augusto no como la de un gobernante autocrático, sino como la de un pacificador imprescindible. A través de una intensa campaña de comunicación política —manifestada en la arquitectura monumental (como el Ara Pacis), la acuñación de monedas con símbolos de abundancia y el patrocinio de la literatura oficial—, el Estado promovió activamente la idea de que la paz y la prosperidad eran el resultado directo e inseparable de su liderazgo. Así, la Pax Romana funcionó en su propio tiempo como una campaña política de legitimación que transformó el control del poder en un acto de gratitud ciudadana.
 
