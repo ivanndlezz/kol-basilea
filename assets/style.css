@@ -28,3 +28,21 @@
 #identidad .bio-table tr:first-child td{font-weight:650}
 @media(min-width:600px){#identidad .bio-table th{width:31%;font-size:13px;padding-right:26px}#identidad .bio-table td{font-size:15px}#identidad .bio-table th,#identidad .bio-table td{padding-block:17px}}
 @media(max-width:360px){#identidad .bio-table th{width:39%;padding-right:10px;font-size:11px}#identidad .bio-table td{font-size:13px}}
+
+/* Kol Basileia · reference table and tactile chapter navigation v2 */
+.person-page .profile-index{display:flex!important;flex-flow:row nowrap!important;align-items:center!important;gap:9px!important;overflow-x:auto!important;overflow-y:hidden;max-width:100%;padding:8px 2px 17px;margin:18px 0 4px;scroll-snap-type:x proximity;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.person-page .profile-index::-webkit-scrollbar{display:none}
+.person-page .profile-index>a{display:inline-flex!important;flex:0 0 auto!important;align-items:center;justify-content:center;min-height:44px;padding:0 17px!important;border:1px solid #d9ddd5!important;border-radius:999px!important;background:#f4f6f2!important;color:#3e5148!important;font:600 13px/1.1 var(--sans)!important;letter-spacing:0!important;white-space:nowrap!important;scroll-snap-align:start;transition:background .18s,color .18s,border-color .18s}
+.person-page .profile-index>a:active,.person-page .profile-index>a[aria-current="location"]{background:#345a4b!important;border-color:#345a4b!important;color:#fff!important}
+.person-page .profile-index>a:focus-visible{outline:3px solid #87a898;outline-offset:2px}
+#identidad .bio-table-wrap{background:#f0f5f0!important;border:1px solid #dce6dd!important;border-radius:18px!important;overflow:hidden!important;margin-top:22px!important}
+#identidad .bio-table{width:100%!important;border-collapse:separate!important;border-spacing:0!important;table-layout:fixed!important}
+#identidad .bio-table tr{border:0!important}
+#identidad .bio-table tr:nth-child(2n){background:rgba(255,255,255,.5)!important}
+#identidad .bio-table th,#identidad .bio-table td{padding:15px 12px!important;border-bottom:1px solid #dce6dd!important;vertical-align:top!important;overflow-wrap:break-word!important;word-break:normal!important;hyphens:none!important}
+#identidad .bio-table tr:last-child th,#identidad .bio-table tr:last-child td{border-bottom:0!important}
+#identidad .bio-table th{width:36%!important;text-align:left!important;color:#486254!important;font:600 12px/1.4 var(--sans)!important}
+#identidad .bio-table td{color:#202b24!important;font:400 14px/1.5 var(--sans)!important}
+#identidad .bio-table tr:first-child td{font-weight:650!important}
+@media(min-width:600px){#identidad .bio-table th{width:30%!important;font-size:13px!important}#identidad .bio-table td{font-size:15px!important}#identidad .bio-table th,#identidad .bio-table td{padding:17px 20px!important}}
+@media(max-width:360px){#identidad .bio-table th{width:37%!important;font-size:11px!important}#identidad .bio-table td{font-size:13px!important}#identidad .bio-table th,#identidad .bio-table td{padding:12px 9px!important}}
