@@ -75,3 +75,7 @@ html.reference-sheet-open,body.reference-sheet-open{overflow:hidden;overscroll-b
 @keyframes reference-rise{from{transform:translateY(28px);opacity:.75}to{transform:translateY(0);opacity:1}}
 @media(min-width:760px){.reference-panel{top:0;bottom:0;left:auto;right:0;width:min(460px,92vw);max-height:none;border-radius:0;padding:78px 38px 36px;animation:reference-slide .24s ease-out}.reference-handle{display:none}.reference-close{top:24px;right:28px}@keyframes reference-slide{from{transform:translateX(30px);opacity:.75}to{transform:translateX(0);opacity:1}}}
 @media(prefers-reduced-motion:reduce){.reference-panel{animation:none}}
+
+/* Retrato editorial de personaje */
+.person-avatar.person-avatar-image{overflow:hidden;padding:0;background:#f7e7a5}
+.person-avatar.person-avatar-image img{display:block;width:100%;height:100%;object-fit:cover;border-radius:inherit}
