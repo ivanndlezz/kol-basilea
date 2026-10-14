@@ -52,3 +52,8 @@
 .hero-cover:before{z-index:1;background:linear-gradient(180deg,rgba(14,12,11,.15) 0%,rgba(14,12,11,.37) 37%,rgba(14,12,11,.83) 100%)}
 .hero-cover .cover-art{display:none}
 .story-thumb{background:#382b24 url("./evangelio-antes-de-jesus.webp") 47% center/cover no-repeat;font-size:0;color:transparent}
+
+/* Enlaces editoriales a fichas y recursos internos */
+.reader-prose a.reference-link{color:#795539;text-decoration:underline;text-decoration-color:rgba(121,85,57,.45);text-decoration-thickness:1px;text-underline-offset:3px;transition:color .2s,text-decoration-color .2s}
+.reader-prose a.reference-link:hover{color:#392619;text-decoration-color:currentColor}
+.reader-prose a.reference-link:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px}
