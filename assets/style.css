@@ -46,3 +46,9 @@
 #identidad .bio-table tr:first-child td{font-weight:650!important}
 @media(min-width:600px){#identidad .bio-table th{width:30%!important;font-size:13px!important}#identidad .bio-table td{font-size:15px!important}#identidad .bio-table th,#identidad .bio-table td{padding:17px 20px!important}}
 @media(max-width:360px){#identidad .bio-table th{width:37%!important;font-size:11px!important}#identidad .bio-table td{font-size:13px!important}#identidad .bio-table th,#identidad .bio-table td{padding:12px 9px!important}}
+
+/* Portada editorial compartida: inicio, listado y lector */
+.hero-cover{background:#30251e url("./evangelio-antes-de-jesus.webp") center center/cover no-repeat}
+.hero-cover:before{z-index:1;background:linear-gradient(180deg,rgba(14,12,11,.15) 0%,rgba(14,12,11,.37) 37%,rgba(14,12,11,.83) 100%)}
+.hero-cover .cover-art{display:none}
+.story-thumb{background:#382b24 url("./evangelio-antes-de-jesus.webp") 47% center/cover no-repeat;font-size:0;color:transparent}
