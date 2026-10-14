@@ -57,3 +57,21 @@
 .reader-prose a.reference-link{color:#795539;text-decoration:underline;text-decoration-color:rgba(121,85,57,.45);text-decoration-thickness:1px;text-underline-offset:3px;transition:color .2s,text-decoration-color .2s}
 .reader-prose a.reference-link:hover{color:#392619;text-decoration-color:currentColor}
 .reader-prose a.reference-link:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px}
+
+/* Contextual reference sheet: mobile bottom sheet / desktop side sheet */
+.reference-overlay[hidden]{display:none!important}
+.reference-overlay{position:fixed;inset:0;z-index:1000}
+.reference-backdrop{position:absolute;inset:0;background:rgba(19,19,18,.47);backdrop-filter:blur(3px)}
+.reference-panel{position:absolute;bottom:0;left:0;right:0;max-height:min(82dvh,700px);overflow-y:auto;overscroll-behavior:contain;padding:38px 28px calc(30px + env(safe-area-inset-bottom));border-radius:22px 22px 0 0;background:#fffdf9;box-shadow:0 -12px 60px #0002;outline:none;animation:reference-rise .24s ease-out}
+.reference-handle{position:absolute;top:12px;left:calc(50% - 22px);width:44px;height:5px;border-radius:8px;background:#d7d3cb}
+.reference-close{position:absolute;top:23px;right:22px;border:0;background:#f0eee9;border-radius:50%;width:38px;height:38px;font:27px/1 var(--sans);color:#49443e}
+.reference-category{display:block;margin:9px 48px 14px 0;color:#806b54}
+.reference-panel h2{font:normal clamp(34px,7vw,48px)/1.08 var(--serif);letter-spacing:-.035em;margin:0 40px 12px 0}
+.reference-dates{font:500 13px/1.5 var(--sans);color:#77716b;margin:0 0 25px}
+.reference-summary{font:normal 18px/1.65 var(--serif);color:#302c28;margin:0 0 28px}
+.reference-read-more{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:16px 18px;background:#292c28;color:white;border-radius:11px;font:600 14px var(--sans)}
+.reference-return{display:block;width:100%;border:0;background:transparent;color:#665f56;font:500 14px var(--sans);padding:20px 10px 4px}
+body.reference-sheet-open{position:fixed;left:0;right:0;width:100%;overflow:hidden}
+@keyframes reference-rise{from{transform:translateY(28px);opacity:.75}to{transform:translateY(0);opacity:1}}
+@media(min-width:760px){.reference-panel{top:0;bottom:0;left:auto;right:0;width:min(460px,92vw);max-height:none;border-radius:0;padding:78px 38px 36px;animation:reference-slide .24s ease-out}.reference-handle{display:none}.reference-close{top:24px;right:28px}@keyframes reference-slide{from{transform:translateX(30px);opacity:.75}to{transform:translateX(0);opacity:1}}}
+@media(prefers-reduced-motion:reduce){.reference-panel{animation:none}}
