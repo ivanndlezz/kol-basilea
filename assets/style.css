@@ -71,7 +71,7 @@
 .reference-summary{font:normal 18px/1.65 var(--serif);color:#302c28;margin:0 0 28px}
 .reference-read-more{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:16px 18px;background:#292c28;color:white;border-radius:11px;font:600 14px var(--sans)}
 .reference-return{display:block;width:100%;border:0;background:transparent;color:#665f56;font:500 14px var(--sans);padding:20px 10px 4px}
-body.reference-sheet-open{position:fixed;left:0;right:0;width:100%;overflow:hidden}
+html.reference-sheet-open,body.reference-sheet-open{overflow:hidden;overscroll-behavior:none}
 @keyframes reference-rise{from{transform:translateY(28px);opacity:.75}to{transform:translateY(0);opacity:1}}
 @media(min-width:760px){.reference-panel{top:0;bottom:0;left:auto;right:0;width:min(460px,92vw);max-height:none;border-radius:0;padding:78px 38px 36px;animation:reference-slide .24s ease-out}.reference-handle{display:none}.reference-close{top:24px;right:28px}@keyframes reference-slide{from{transform:translateX(30px);opacity:.75}to{transform:translateX(0);opacity:1}}}
 @media(prefers-reduced-motion:reduce){.reference-panel{animation:none}}
