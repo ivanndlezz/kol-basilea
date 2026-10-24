@@ -63,3 +63,13 @@ Unos días después, emprendes el camino hacia el Jordán.
 Todavía no sabes que allí escucharás hablar de alguien que viene después de Yojanán.
 
 Un hombre de Galilea llamado Yeshúa.
+
+---
+
+## Detrás de la historia
+
+Aquel hombre del desierto, llamado Yojanán, pasaría a la historia como **Juan el Bautista**.
+
+Yeshúa, el galileo anunciado al final del relato, sería conocido como **Jesús de Nazaret**.
+
+*¿Será este el Mesías?*
