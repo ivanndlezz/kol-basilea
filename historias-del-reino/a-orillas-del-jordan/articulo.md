@@ -14,7 +14,7 @@ Nadie sabe cuándo llegará ese tiempo.
 
 Una mañana, después de la reunión en la sinagoga, escuchas una conversación entre varios hombres que acaban de regresar de las inmediaciones del río Jordán.
 
-Hablan de un tal **Yojanán**, a quien hoy conocemos como **Juan el Bautista**.
+Hablan de un tal **Yojanán**.
 
 Dicen que vive en el desierto, que viste un manto tejido con pelo de camello y lleva un cinturón de cuero alrededor de la cintura. Se alimenta de saltamontes secos y miel silvestre, y ha comenzado a atraer multitudes desde Jerusalén y las poblaciones de Judea.
 
