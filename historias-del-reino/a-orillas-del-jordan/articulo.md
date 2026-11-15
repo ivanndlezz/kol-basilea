@@ -16,7 +16,7 @@ Una mañana, después de la reunión en la sinagoga, escuchas una conversación 
 
 Hablan de un tal **Yojanán**.
 
-Dicen que vive en el desierto, que viste un manto tejido con pelo de camello y lleva un cinturón de cuero alrededor de la cintura. Se alimenta de saltamontes secos y miel silvestre, y ha comenzado a atraer multitudes desde Jerusalén y las poblaciones de Judea.
+Dicen que vive en el desierto, que viste un manto tejido con pelo de camello y lleva un cinturón de cuero alrededor de la cintura. Se alimenta de langostas —un tipo de saltamontes— y miel silvestre, y ha comenzado a atraer multitudes desde Jerusalén y las poblaciones de Judea.
 
 La descripción despierta tu curiosidad.
 
